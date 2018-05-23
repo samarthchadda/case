@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>Login</title>
+
+</head>
+
+<body>
+<style>
+h3
+{
+  font-family: Verdana; 
+  font-size: 18pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:red;
+  text-align: center; 
+}
+
+table{
+  font-family: Verdana; 
+  color:black; 
+  font-size: 12pt; 
+  font-style: normal;
+  font-weight: bold;
+  text-align:left; 
+  border-collapse: collapse; 
+}
+</style>
+<br><br><br><br>
+<h3>Log in to add entry!</h3>
+
+ <form name="login">
+<table align="center" cellpadding = "5">
+ 
+<!----- First Name ---------------------------------------------------------->
+<tr>
+<td>User Name</td>
+<td><input type="text" name="First_Name" maxlength="50"/>
+
+</td>
+</tr>
+ 
+<!----- Last Name ---------------------------------------------------------->
+<tr>
+<td>Password</td>
+<td><input type="text" name="Last_Name" maxlength="50"/>
+
+</td>
+</tr>
+ 
+
+ 
+ 
+</td>
+</tr>
+
+<!----- Login and Reset ------------------------------------------------->
+<tr>
+<td colspan="5" align="center">
+<input type="button" onclick="check(this.form)" value="Login"/>
+  
+  
+
+</td>
+</tr>
+</table>
+ 
+</form>
+<script language="javascript">
+function check(form)
+{
+  if(form.userid.value == "myuserid" && form.pswrd.value == "mypswrd")
+  {
+    window.open('addentry.html')
+  }
+ else
+ {
+   alert("Error Password or Username")
+  }
+}
+</script>
+ 
+</body>
+</html>

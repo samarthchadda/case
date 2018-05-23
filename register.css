@@ -1,0 +1,59 @@
+.student{
+	
+	
+
+	position: absolute;
+	height: 80px;
+	width: 290px;
+	top: 262px;
+
+	left: 300px;
+}
+
+.student a{
+	
+	background-color: 	#00FFFF;
+
+	text-decoration: none;
+	color: black;
+    border: 4px solid white;
+	padding: 5px 8px;
+	font-size: 47px;
+	/*line-height: 70px;*/
+	position: absolute;
+}
+
+.faculty{
+	
+	
+	
+	position: absolute;
+	height: 80px;
+	width: 290px;
+	top: 260px;
+	left: 640px;
+}
+
+.faculty a{
+	background-color: 	#00FFFF;
+	margin-top: 1px;
+	text-decoration: none;
+	color: black;
+	padding: 5px 6px;
+	font-size: 48px;
+	border: 4px solid white;
+	/*line-height: 70px;*/
+	position: absolute;
+	
+}
+
+body{
+	background-image: url(images11.jpg);
+	background-size: cover;
+}
+
+
+a:hover{
+	background-color: yellow;
+	color: green;
+}
